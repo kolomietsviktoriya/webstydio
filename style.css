@@ -116,9 +116,10 @@ body {
 .main {}
 
 .hero {
-    background-color: var(--bacraund-color);
+   background-color: var(--bacraund-color);
     padding-bottom: 200px;
     padding-top: 200px;
+   
 }
 
 .hero-title {
@@ -159,20 +160,20 @@ body {
     height: 120px;
     background-color: #F5F4FA;
     border-radius: 4px;
-    background-image: url(./img/антенка.png);
+    background-image: url(./img/Group.webp);
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 30px;
 }
 .benefits-card:nth-child(2)::before{
-    background-image: url(./img/годиник.png);
+    background-image: url(./img/clock1.webp);
 }
 .benefits-card:nth-child(3)::before{
-    background-image: url(./img/вектор.png);
+    background-image: url(./img/vektor.webp);
 }
 .benefits-card:nth-child(4)::before{
-    background-image: url(./img/астронавт.png);
+    background-image: url(./img/astronavt.webp);
 }
 .benefits {
     padding-top: 95px;
@@ -290,7 +291,10 @@ body {
     padding: 6px 22px;
     margin-bottom: 50px;
 }
-
+.main-filter:hover,
+.main-filter:focus{
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
 .main-filter:hover {
     background-color: var(--hover-color);
     color: var(--foot-studio);
@@ -301,7 +305,10 @@ body {
     border: 1px solid var(--border-color-portfolio);
     width: 370px;
 }
-
+.main-card:hover,
+.main-card:focus{
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
 .filter-wrap{
     width: 575px;
     margin: 0 auto;    
