@@ -6,9 +6,12 @@
     <title>webstydio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="reset.css">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@600;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="reset.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -29,8 +32,17 @@
     </div>
 
         <ul class="header-contacts-list">
-            <li class="header-contact email"><a class="header-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="header-contact"><a class="header-contacts" href="tel:+38-096-111-11-11">+38 096 111 11 11</a></li>
+            <li class="header-contact email"><a class="header-contacts" href="mailto:info@devstudio.com"> 
+                <svg class="contact-icon" width="16" height="12">
+                <use href="./img/symbol-defs.svg#iconl-emai"></use>
+                </svg>
+                info@devstudio.com</a></li>
+            <li class="header-contact"><a class="header-contacts" href="tel:+38-096-111-11-11">
+                <svg class="contact-icon" width="12" height="16">
+                    <use href="./img/symbol-defs.svg#icon-phone"></use>
+                    </svg>
+                +38 096 111 11 11></a>
+
         </ul>
     </div>
     </header>
@@ -86,9 +98,16 @@
             <div class="container">
             <h2 class="name-section">Чим ми займаємося</h2>
             <ul class="work-list">
-                <li class="work-card"><img class="work-img" src="./img/work1.webp" alt="заннятя"></li>
-                <li class="work-card"><img class="work-img" src="./img/work2.webp" alt="заннятя"></li>
-                <li class="work-card"><img class="work-img" src="./img/work3.webp" alt="заннятя"></li>
+                
+                <li class="work-card"><img class="work-img" src="./img/work1.webp" alt="заннятя">
+                 <p class="activity-subtitle">Десктопні додатки</p>
+                </li>
+                <li class="work-card"><img class="work-img" src="./img/work2.webp" alt="заннятя">
+                   <p class="activity-subtitle">Мобільні додатки</p>
+                </li>
+                <li class="work-card"><img class="work-img" src="./img/work3.webp" alt="заннятя">
+                  <p class="activity-subtitle">Дизайнерські рішення</p>
+                </li>
             </ul>
         </div>
         </section>
@@ -100,8 +119,24 @@
                 <li class="team-card">
                     <div class="team-wrap">
                     <img class="team-img" src="./img/imgboyg.webp" alt="команда">
-                    <h3 class="team-name">Ігор Дем'яненко</h3>
+                    <h3 class="team-name">Ігор Дем'яненко</h3>  
                     <h4 class="profesion" lang="en">Product Designer</h4>
+                    <ul class="social-list">
+                 <li class="social-list-item"><a href="#" class="social-link">
+                    <svg class="social-item">
+                        <use href="./img/symbol-defs.svg#icon-fecebook-two"></use>
+                        
+                    </svg>
+                 </a></li>
+                 <li class="social-list-item"><a href="#" class="social-link">
+                 </a></li>
+                 <li class="social-list-item"><a href="#" class="social-link">
+
+                 </a></li>
+                 <li class="social-list-item"><a href="#" class="social-link">
+
+                 </a></li>
+                    </ul>
                 </div>
                 </li>
                 <li class="team-card">
