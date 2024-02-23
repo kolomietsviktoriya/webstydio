@@ -420,7 +420,26 @@ body {
     font-size: 26px;
     font-family: 'Raleway', sans-serif;
 }
-
+.footer-social-list{
+    display: flex;
+    gap: 8px;
+}
+.footer-social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.1);
+    fill: #fff;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),fill 250ms;
+}
+.footer-social-svg{
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+}
 .geo {
     color: var(--foot-adress);
     font-family: Roboto;
