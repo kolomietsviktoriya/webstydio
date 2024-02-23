@@ -254,8 +254,65 @@
             <li><a class="foot-contacts" href="tel:+38-096-111-11-11">+38 096 111 11 11</a></li>
         </ul>
     </div>
+</div>
+</div>
     </footer>
+      <!-- modal window -->
 
+    <div data-modal class="backdrop is-hidden">
+        <div class="modal">
+            
+            <button type="button" class="modal-close-button" modal-close-button>
+                
+                <svg class="modal-icon">
+                    <use href="./img/symbol-defs.svg#icon-close"></use>
+                </svg>
+            </button>
+            <form class="modal-form">
+                <h2 class="modal-form-title">Залиште свої дані, ми вам передзвонимо</h2>
+                <div class="modal-form-fill">
+                    <label for="name" class="modal-form-label">Ім'я</label>
+                    <input required id="name" class="modal-form-input" type="text">
+                    <svg class="modal-form-icon">
+                        <use href="./img/symbol-defs.svg#icon-persone"></use>
+                    </svg>
+                </div>
+
+                <div class="modal-form-fill">
+                    <label for="tel" class="modal-form-label">Телефон</label>
+                    <input required id="tel" class="modal-form-input" type="tel">
+                    <svg class="modal-form-icon">
+                        <use href="./img/symbol-defs.svg#icon-black-phone"></use>
+                    </svg>
+                </div>
+
+                  <div class="modal-form-fill">
+                    <label for="mail" class="modal-form-label">Пошта</label>
+                    <input required id="mail" class="modal-form-input" type="email">
+                    <svg class="modal-form-icon">
+                        <use href="./img/symbol-defs.svg#icon-black-email"></use>
+                    </svg>
+                </div>
+                <div class="modal-form-fill">
+                    <label for="coment" class="modal-form-label">коментар</label>
+                    <textarea placeholder="Введіть текст" class="coment" name="coment" id="coment" rows="10"></textarea>
+                    </div>
+                
+                    <label class="modal-form-policy">
+                        <input required class="modal-form-checbox" type="checkbox">
+                        <p class="policy-text">Погоджуюся з розсилкою та приймаю 
+                            <a class="policy-link" href="#">Умови договору</a>
+                        </p>
+                    </label>
+                    
+                    <div class="agree-btn-wrap">
+                    <button type="submit" class="agree-btn">відправити</button>
+                        </div>
+            </form>
+        </div>
+    </div>
+<script src="./script.js"></script>
+     
 </body>
 
 </html>
