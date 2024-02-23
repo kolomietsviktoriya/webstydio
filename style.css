@@ -440,6 +440,10 @@ body {
     height: 20px;
     fill: #fff;
 }
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
+}
 .geo {
     color: var(--foot-adress);
     font-family: Roboto;
