@@ -273,7 +273,7 @@ body {
 }
 
 .team-card {
-
+  padding-bottom: 24px;
 }
 
 .team-wrap {
@@ -315,7 +315,7 @@ body {
     margin-top: 16px;
 }
 .social-link{
-    fill: var( --text-color#757575);
+    fill: var( --text-color);
     width: 44px;
     height: 44px;
     border-radius: 50%;
