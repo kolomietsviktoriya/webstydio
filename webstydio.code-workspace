@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "webstydio",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "webstydio",
+		"liveServer.settings.port": 5503
+	}
+}
