@@ -396,7 +396,26 @@ body {
 .card-photo { 
     margin-bottom: 20px; 
 } 
- 
+.product-trum{
+    position: relative;
+    overflow: hidden;
+}
+.product-action{
+    position: relative;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    background-color: #2196F3E5;
+    color: var(--white-color);
+    width: 100%;
+    padding: 63px 24px;
+    opacity: 0;
+}
+.portfolio-link:hover .product-action{
+    opacity: 1 ;
+}
 .card-name { 
     color: var(--main-text); 
     font-weight: 700; 
@@ -410,7 +429,7 @@ body {
     padding-bottom: 20px; 
     text-align: center; 
 } 
- 
+
 /* footer */ 
 .footer { 
     background-color: var(--bacraund-color); 
@@ -541,20 +560,3 @@ body {
 .modal-icon:focus { 
   color: var(--hover-color); 
 } 
- 
-/*FORM MODAL WINDOW*/ 
-.modal-form { 
-  width: 528px; 
-  padding-right: 40px; 
-  padding-left: 40px; 
-} 
-.modal-form-title { 
-  font-family: "Roboto", sans-serif; 
-  font-weight: 700; 
-  font-size: 20px; 
-  line-height: 1.15; 
-  text-align: center; 
-  letter-spacing: 0.03em; 
-  color: #212121; 
-  margin-bottom: 12px; 
-}
