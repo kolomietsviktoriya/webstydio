@@ -221,8 +221,8 @@ body {
 } 
  
  
-.name-section
-.name-section { 
+
+.name-section{ 
     color: var(--main-titles); 
     font-weight: 700; 
     font-size: 36px; 
@@ -497,7 +497,13 @@ body {
     font-size: 14px; 
     line-height: 171.429%; 
 } 
- 
+ .footer-title{
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--foot-adress);
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+ }
  
  
  
@@ -574,7 +580,7 @@ body {
 .modal-form{
     padding-right: 40px;
     padding-left: 40px;
-    width: 528px;
+   
 }
 .modal-form-label{
     margin-bottom: 4px;
