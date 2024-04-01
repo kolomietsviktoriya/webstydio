@@ -520,11 +520,30 @@ body {
     border: var(--foot-adress);
     background:  #2196F3;
     box-shadow: 0px 4px 4px 0px #00000026;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--foot-adress);
+    margin-left: 12px;
+ }
+ .footer-form-filt{
+    display: flex;
     
+ }
+ .footer-form-title{
+    color: var(--foot-adress);
+    font-weight: 700;
+    font-size: 14px;
+     letter-spacing: 0.03em;
+     margin-bottom: 20px;
+     text-transform: uppercase;
  }
  .footer-icon{
     width: 24px;
     height: 24px;
+    fill: var(--foot-adress);
+    margin-left: 10px;
+
     
  }
  
